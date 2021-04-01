@@ -2,9 +2,11 @@
 
 cd service2
 ./gradlew run &
-cd ../service1
+cd ..
+cd service1
 ./gradlew run &
-cd ../gateway
+cd ..
+cd gateway
 ./gradlew bootRun &
 cd ..
 
